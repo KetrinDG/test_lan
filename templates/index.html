@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Article Summarizer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+    <h1>Article Summarizer</h1>
+    <form method="POST">
+        <textarea name="article" rows="30" cols="80" placeholder="Enter your article here..."></textarea><br>
+        <input type="submit" value="Summarize">
+    </form>
+</body>
+</html>
