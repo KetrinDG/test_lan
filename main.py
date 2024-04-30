@@ -5,6 +5,10 @@ from heapq import nlargest
 from stop_words import get_stop_words
 import logging
 from flask_cors import CORS
+import string
+
+
+punctuation = string.punctuation
 
 # Logger setup
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
